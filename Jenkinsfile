@@ -3,13 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                echo 'Checking out code...'
-                git 'https://github.com/I578363/labsheet1-93033.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo 'Building project...'
