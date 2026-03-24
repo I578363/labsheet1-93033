@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code...'
-                git 'https://github.com/<your-username>/<repo>.git'
+                git 'https://github.com/I578363/labsheet1-93033.git'
             }
         }
 
